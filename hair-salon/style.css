@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700,900&display=swap');
+:root {
+    --green: #8bc34a;
+    --black: #000;
+    --transition: .3s ease;
+    --fontSize:16px;
+    --headingsFont:'Playfait Display',serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: var(--fontSize);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--headingsFont);
+}
+.btn-dark{
+    background: var(--black);
+    border-radius: 0;
+    padding: 15px 40px;
+}
+.btn-dark:hover{
+    background: var(--green);
+}
+.underline{
+    border: 1px solid var(--green);
+    width: 20%;
+}
+/*********
+nav
+*********/
+.navbar-brand{
+    font-family: var(--headingsFont);
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color: var(--green) !important;
+    transition: var(--transition);
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: var(--green) !important;
+    transition: var(--transition);
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--green) !important;
+}
+/*************
+slider
+*************/
+.carousel-caption{
+    bottom: 33%;
+}
+.carousel-caption p{
+    background: var(--green);
+}
+.carousel-caption h5{
+    text-shadow: 0 0 2px black;
+}
+/**********
+welcome
+***********/
+.welcome h2{
+    font-size: 3rem;
+}
+.welcome h2 span{
+    color: var(--green);
+    font-style: italic;
+    font-weight: 500;
+}
+.welcome a {
+    color: var(--green);
+    text-decoration: underline;
+}
+.welcome a:hover{
+    text-decoration: none;
+    color: var(--black);
+    transition: var(--transition);
+}
+.welcome h3{
+    color: var(--green);
+}
+/*******************
+featuredServices
+********************/
+.featuredServices i{
+    color: var(--green);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.newHairStyle .col-md-5{
+    height: 50vh;
+    margin-left: -100px;
+}
+/*************
+experience
+*************/
+.experience {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/experience.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+/**************
+footer
+**************/
+footer a{
+    color: gray;
+}
+footer a:hover{
+    color: var(--green);
+}
+footer .pt{
+    padding-top: 40px;
+}
+footer h4{
+    color: var(--green);
+}
+footer .btn-success{
+    position: relative;
+    top:-2px;
+    left: -5px;
+    border-radius: none;
+    background: var(--green) !important; 
+    font-size: 
+}
+footer button:hover{
+    background: var(--black); !important;
+    color: var(--white);
+    border: 1px solid black !important;
+}
+footer i{
+    font-size: 1.4rem;
+    color: var(--green);
+}
+footer i:hover{
+    color: var(--black);
+    transition: var(--transition);
+}
+footer p{
+    color: gray;
+}
+footer .text-center{
+    padding-top: 30px;
+    padding-bottom: none;
+}
+.pb-5, .py-5 {
+    padding-bottom: 0rem !important;
+}
